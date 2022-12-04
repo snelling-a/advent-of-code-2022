@@ -1,6 +1,6 @@
 import { parseInput } from "../utils/parseInput.ts";
 
-const input = await parseInput("01");
+const input = await parseInput(1);
 
 const parsedInput = input.join().split(",,").map((elf) => {
   return elf.split(",").map((s) => parseInt(s));

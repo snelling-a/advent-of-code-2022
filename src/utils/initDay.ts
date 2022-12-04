@@ -9,6 +9,7 @@ export const initDay = async (day: number) => {
     await Deno.stat(inputPath);
 
     write("input already fetched");
+    // deno-lint-ignore no-unused-vars
   } catch (e) {
     Deno.mkdir(inputDir);
 
