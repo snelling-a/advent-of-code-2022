@@ -1,0 +1,32 @@
+{
+ "compilerOptions": {
+    "allowJs": false,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true
+  },
+  "fmt": {
+    "files": {
+      "include": [
+        "src/"
+      ]
+    },
+    "options": {
+      "useTabs": true
+    }
+  },
+  "lint": {
+    "files": {
+      "include": [
+        "src/"
+      ]
+    },
+    "report": "compact"
+  },
+  "test": {
+    "files": {
+      "include": [
+        "src/"
+      ]
+    }
+  }
+}
